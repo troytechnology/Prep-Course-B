@@ -4,10 +4,16 @@
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
+const { suma } = require("../../02-JS-II/homework/homework");
+
 function imprimirSumaNumeros() {
     // Imprime la suma de los números del 1 al 10
     // Pista: usa un acumulador
     // Tu código:
+    for (Int i = 1; <= 11 ; i++){
+      sumanum = sumanum + i;
+      return sumanum;
+    }
 }
 
 function encuentraPares(array){

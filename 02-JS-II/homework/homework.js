@@ -194,31 +194,35 @@ function devolverString(str) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
-    var cadena1 = hola;
-    var cadena2 = nombre;
-    resultado = cadena1.concat(cadena2, "!")
-    return resultado;
+    return "Hola "+nombre+"!"
   }
   
   function obtenerAreaRectangulo(alto, ancho) {
     // Retornar el area de un rectángulo teniendo su altura y ancho
     // Tu código:
+    area_recta = alto * ancho;
+    return area_recta;
   }
   
   function retornarPerimetro(lado) {
     //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
     //Escribe tu código aquí
+    return  lado * 4;
   }
   
   function areaDelTriangulo(base, altura) {
     //Desarrolle una función que calcule el área de un triángulo.
     //Escribe tu código aquí
+    area_trian = base * altura / 2;
+    return area_trian;
   }
   
   function deEuroAdolar(euro) {
     //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
     //como parámetro un número de euros y calcule el cambio en dólares.
     //Escribe tu código aquí
+    var cambio = euro * 1.20;
+    return cambio;
   }
   
   // No modificar nada debajo de esta línea
